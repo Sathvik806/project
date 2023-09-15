@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eGrocery Basket</title>
+
+    <!-- <============StyleSheet===============> -->
+    <link rel="StyleSheet" href="style.css" />
+
+    <!-- ===========Fav Icon========== -->
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <!-- ==========Using Font Awsome========== -->
+    <script src="https://kit.fontawesome.com/3733ea5b46.js" crossorigin="anonymous"></script>
+
+
+    <!-- =====import google font===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200;1,300;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!--==========Navigation========== -->
+    <nav class="navigation">
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+
+        <!-- logo -->
+        <a href="index.html" class="logo">
+         <div class="image"><img src="images/mainlogo.avif" alt=""> </div>  <span>menu</span>Marvel
+        </a>
+
+        <!-- menu-btn -->
+        <!-- <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label> -->
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#popular-bundle-pack">Dishes</a></li>
+            <li><a href="#download-app">Our App</a></li>
+        </ul>
+
+        <!--Right Nav  -->
+        <div class="right-nav">
+            <!-- like -->
+            <!-- <a href="#" class="like">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+                <span>0</span>
+            </a> -->
+
+            <!-- cart -->
+            <a href="#" class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+
+        </div>
+
+    </nav>
+    <!-- nav-end -->
+
+
+    <!-- search banner -->
+    <section id="search-banner">
+        <!-- bg -->
+
+        <!-- <img src="images/bg-2.png" class="bg-2" alt="bg-2"> -->
+
+        <!-- text -->
+        <div class="search-banner-text">
+            <h1>Order Your Food</h1>
+            <strong>#Free Delivery</strong>
+
+            <!-- search box -->
+            <form action="" class="Search-box">
+                <!-- icon -->
+                <i class="fas fa-search "></i>
+                <!-- input -->
+                <input type="text" class="search-input" placeholder="Search your daily groceries" name="search"
+                    required>
+                <!--btn-->
+                <input type="submit" class="search-btn" value="Search">
+
+
+            </form>
+
+        </div>
+
+
+    </section>
+    <section id="category">
+        <!-- heading -->
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+
+
+        <div class="category-container">
+            <!-- box -->
+            <a href="#" class="category-box">
+                <img src="images/starters.avif" alt="Fish">
+                <span>Starters</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/veg.avif" alt="Fish">
+                <span>Veg</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/non-veg.avif" alt="Fish">
+                <span>Non-veg</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/drinks.avif" alt="Fish">
+                <span>Drinks</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/desserts.avif" alt="Fish">
+                <span>Desserts</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/beverages.avif" alt="Fish">
+                <span>Beverages</span>
+            </a>
+            
+        </div>
+
+    </section>
+
+    <!-- popular product -->
+    <section id="popular-product">
+        <!-- heading -->
+        <div class="popular-heading">
+            <h3>Popular Starters</h3>
+            <span>All</span>
+        </div>
+        <!-- product box container -->
+        <div class="product-container">
+            <div class="product-box">
+                <img src="images/starters-1.avif" alt="apple">
+                <span class="title">Pasta </span>
+                <!-- <span class="quantity"> 1 KG</span> -->
+                <span class="price">	
+                    <i class="fa fa-inr"></i> 190</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i>Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+            <div class="product-box">
+                <img src="images/starters-2.avif" alt="apple">
+                <span class="title">Chicken drumsticks</span>
+                <!-- <span class="quantity"> 1 KG</span> -->
+                <span class="price"> 	
+                    <i class="fa fa-inr"></i>220</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+            <div class="product-box">
+                <img src="images/starters-3.avif" alt="apple">
+                <span class="title">Garlic Prawns</span>
+                <!-- <span class="quantity"> 1 KG</span> -->
+                <span class="price"> 	
+                    <i class="fa fa-inr"></i>200</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+            <div class="product-box">
+                <img src="images/starters-4.jpg" alt="apple">
+                <span class="title">Samosa</span>
+                <!-- <span class="quantity"> 1 KG</span> -->
+                <span class="price"> 	
+                    <i class="fa fa-inr"></i>60</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+             <div class="product-box">
+                <img src="images/starters-5.avif" alt="apple">
+                <span class="title"> fried chicken with sauce and salad</span>
+                <!-- <span class="quantity"> 1 KG</span> -->
+                <span class="price">  <i class="fa fa-inr"></i>240</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Add To Cart
+                </a>
+            </div> 
+            <div class="product-box">
+                <img src="images/starter-6.avif" alt="apple">
+                <span class="title">lobster soup </span>
+                <span class="quantity"> 1 KG</span>
+                <span class="price">  <i class="fa fa-inr"></i>180</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Add To Cart
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div> 
+        </div>
+    </section>
+
+    <section id="popular-bundle-pack">
+        <div class="product-heading">
+            <h3>Popular Dishes</h3>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="images/dishes-1.avif" alt="pack">
+                <span class="dish">Gourmet chicken biryani</span>
+                <span class="quantity"> Lemone, Tamato,potato,+4</span>
+                <span class="price">  <i class="fa fa-inr"></i>300</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+
+            </div>
+            <div class="product-box">
+                <img src="images/dishes-2.avif" alt="apple">
+                <span class="dish">Chicken Curry</span>
+                <span class="quantity">Apple,cucumber,tamato,+5</span>
+                <span class="price">  <i class="fa fa-inr"></i>280</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i>Order now
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+
+            </div>
+            <div class="product-box">
+                <img src="images/dishes-3.avif" alt="apple">
+                <span class="dish">Veg thali</span>
+                <span class="quantity">Cucumber,Tamato,Radish,+3</span>
+                <span class="price">  <i class="fa fa-inr"></i>160</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+
+            </div>
+            <div class="product-box">
+                <img src="images/dishes-4.jpg" alt="apple">
+                <span class="dish">Andhra Mutton Curry</span>
+                <span class="quantity">Biscuits,Wheat flour,Rice,+more</span>
+                <span class="price">  <i class="fa fa-inr"></i>280</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+
+            </div>
+            <div class="product-box">
+                <img src="images/dishes-5.avif" alt="apple">
+                <span class="dish">Egg Fried Rice </span>
+                <span class="quantity">Apple,Banana,Orange,+3</span>
+                <span class="price">  <i class="fa fa-inr"></i>140</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+
+            </div>
+            <div class="product-box">
+                <img src="images/dishes-6.jpg" alt="apple">
+                <span class="dish">Grilled salmon fillet</span>
+                <span class="quantity">Sugar,Oats,Tea powder,+5</span>
+                <span class="price">  <i class="fa fa-inr"></i>240</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- <section id="clients">
+        <div class="client-heading">
+            <h3>What Our Client's Say</h3>
+            <br>
+        </div>
+
+        <div class="client-box-container">
+        
+            <div class="client-box">
+                profile
+                <div class="client-profile">
+                    <img src="images/client-2.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Mark</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                 para -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam laborum eum blanditiis eius
+                    consequatur fuga neque! Minima temporibus magni incidunt dolor, natus esse. Sapiente eos sed placeat
+                    quos maiores!</p>
+            </div> -->
+
+        <!-- </div>
+
+    </section>  -->
+
+    <!-- partner
+    <section id="partner"> 
+        <div class="partner-heading"> 
+                <h3>Our Trusted Partner</h3>
+        </div>
+        logo container
+        <div class="logo-container">
+            <img src="images/logo-1.png" alt="logo">
+            <img src="images/logo-2.png" alt="logo">
+            <img src="images/logo-3.png" alt="logo">
+            <img src="images/logo-4.png" alt="logo">
+        </div>
+
+    </section>  
+     partner end -->
+
+     <!-- POPULAR DESSERTS -->
+     <section id="popular-product">
+        <!-- heading -->
+        <div class="popular-heading">
+            <h3>Popular Desserts</h3>
+            <span>All</span>
+        </div>
+        <!-- product box container -->
+        <div class="product-container">
+            <div class="product-box">
+                <img src="images/des-1.jpg" alt="apple">
+                <span class="title">donut with chocolate topping</span>
+                <span class="quantity"> 1 KG</span>
+                <span class="price">	
+                    <i class="fa fa-inr"></i>100</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i>Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+            <div class="product-box">
+                <img src="images/des-2.avif" alt="apple">
+                <span class="title">chocolate ice cream</span>
+                <span class="quantity"> 1 KG</span>
+                <span class="price"> 	
+                    <i class="fa fa-inr"></i>80</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+            <div class="product-box">
+                <img src="images/des-3.avif" alt="apple">
+                <span class="title">caramel mousse fruit cream</span>
+                <span class="quantity"> 1 KG</span>
+                <span class="price"> 	
+                    <i class="fa fa-inr"></i>120</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+            <div class="product-box">
+                <img src="images/des-4.avif" alt="apple">
+                <span class="title">Cheese Cake</span>
+                <span class="quantity"> 1 KG</span>
+                <span class="price"> 	
+                    <i class="fa fa-inr"></i>90</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <!-- <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a> -->
+
+            </div>
+             <div class="product-box">
+                <img src="images/des-5.jpg" alt="apple">
+                <span class="title"> chocolate chip cookies</span>
+                <span class="quantity"> 1 KG</span>
+                <span class="price"> <i class="fa fa-inr"></i>150</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i>Order now
+                </a>
+            </div> 
+            <div class="product-box">
+                <img src="images/des-6.avif" alt="apple">
+                <span class="title"> ras malai</span>
+                <span class="quantity"> 1 KG</span>
+                <span class="price"> <i class="fa fa-inr"></i>90</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag "></i> Order now
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+
+            </div> 
+        </div>
+    </section>
+    <!-- POPULAR DESSERTS END -->
+
+    <!-- download-app -->
+    <section id="download-app">
+        <div class="app-img">
+            <img src="images/mobile-app.png" alt="mobile-app">
+        </div>
+        <!-- text -->
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi dolore, natus iste veritatis harum tenetur repellendus, consequatur eius, placeat quod iure nesciunt qui autem! Repellendus nobis dicta nihil in adipisci?</p>
+            <div class="download-btns">
+                <a href="#"><img src="images/appstore-btn.png" alt="btn1"></a>
+                <a href="#"><img src="images/googleplay-btn.png" alt="btn2"></a>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#">
+                      <span>menu</span>Marvel</a>
+                <!-- social -->
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- links -->
+           
+            <div class="footer-links">
+                <strong>Location</strong>
+                <ul>
+                    <li><a href="#">United States</a></li>
+                    <li><a href="#">England</a></li>
+                    <li><a href="#">India</a></li>
+                    <li><a href="#">Australia</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <strong>Contact</strong>
+                <ul>
+                    <li><a href="#">Email : sathvik806@gmail.com</a></li>
+                    <li><a href="#">Phone : 9898487858</a></li>
+
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
